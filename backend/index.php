@@ -27,4 +27,3 @@ $response = $requestHandler->handleProduct($product);
 //Response:
 echo json_encode($response);
 ?>
-
