@@ -10,11 +10,11 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          {/* Listing page: */}
-          <Route exact path="/" component={ProductList} />
-          
           {/* Adding product page: */}
-          <Route exact path="/add-product" component={ProductAdd} />
+          <Route exact path="/add-product" component={ProductAdd} />      
+    
+          {/* Listing page: */}
+          <Route path="/" component={ProductList} />
         </Switch>
         <Footer />
       </div>
